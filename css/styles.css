@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 70px;
+  color: #45b29a;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  color: #132743;
+}
+
+h3 {
+  font-family: 'Handlee', cursive;
+  font-size: 30px;
+  color: #49beb7;
+}
+
+h4 {
+  font-family: serif;
+  font-size: 20px;
+  color: #49beb7;
+}
+
+p {
+  font-size: 20px;
+  color: #407088;
+}
+
+a {
+  margin: 40px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  color: #EAF6F6;
+  width: 5%;
+  border-width: 5px;
+}
+
+/******************** class selector ************ */
+/* ************top container starts************** */
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* ************top container Ends************** */
+/* *************** Middle container starts***** */
+.middle-container {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.photo {
+  padding-top: 30px;
+  margin: auto;
+  border-radius: 100%;
+  width: 300px;
+}
+
+.code {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.read {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  text-align: right;
+}
+
+.contact-me {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+/* *************** Middle container starts***** */
+/*************** bottom container starts ****** */
+.bottom-container {
+  background-color: #66bfbf;
+  padding-left: 500px;
+  padding-right: 500px;
+  margin-top: 60px;
+  padding-bottom: 10px;
+}
+
+.footer-link {
+  margin-top: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footname {
+  font-size: 15px;
+  text-align: center;
+}
+
+/*************** bottom container starts **************** */
+/* *******************Button class starts**************** */
+.butn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 0 1px 3px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/************************ button class ends******************* */
